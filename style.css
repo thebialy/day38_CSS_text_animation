@@ -5,3 +5,25 @@ body {
     min-height: 100vh;
     background-color: #173F5F;
 }
+
+.container {
+    position: relative;
+    margin: auto;
+    height: 0.71em;
+    color: transparent;
+    font-family: 'Cambay', sans-serif;
+    font-size: 10vw;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.03em;
+}
+
+.deconstructed > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #ED553B;
+    pointer-events: none;
+  }
