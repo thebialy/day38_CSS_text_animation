@@ -18,7 +18,7 @@ body {
     line-height: 1.03em;
 }
 
-.deconstructed > div {
+.container > div {
     position: absolute;
     top: 0;
     left: 0;
@@ -27,3 +27,27 @@ body {
     color: #ED553B;
     pointer-events: none;
   }
+
+  .container > div:nth-child(1) {
+    -webkit-mask-image: linear-gradient(#173F5F 25%, transparent 25%);
+    mask-image: linear-gradient(#173F5F 25%, transparent 25%);
+    animation: deconstructed1 5s infinite;
+  }
+
+  .container > div:nth-child(2) {
+    -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+    mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+    animation: deconstructed2 5s infinite;
+  }
+
+  .container > div:nth-child(3) {
+    -webkit-mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+   mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+   animation: deconstructed3 5s infinite;
+ }
+
+ .container > div:nth-child(4) {
+    -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
+   mask-image: linear-gradient(transparent 75%, black 75%);
+   animation: deconstructed4 5s infinite;
+ }
