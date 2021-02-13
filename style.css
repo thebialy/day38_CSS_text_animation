@@ -27,7 +27,6 @@ body {
     right: 0;
     bottom: 0;
     color: #ED553B;
-    pointer-events: none;
 }
   
 .container > div:nth-child(1) {
